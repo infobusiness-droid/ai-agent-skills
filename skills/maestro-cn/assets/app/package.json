@@ -1,0 +1,15 @@
+{
+  "name": "maestro-cn",
+  "version": "0.1.0",
+  "description": "国内版多智能体编排工作台（Maestro 复刻）：接入豆包 / DeepSeek / 通义千问等国内模型与 workbuddy CLI，本地运行、数据本机存储。",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "web": "python run.py"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
